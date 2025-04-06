@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="https://raw.githubusercontent.com/ZainaPasha/Rural-Reach/refs/heads/main/public/assets/icons/logo-full.svg" alt="Rural Reach Banner" />
+  <img src="https://raw.githubusercontent.com/ZainaPasha/Rural-Reach/refs/heads/main/public/assets/icons/logo-full.svg" alt="Rural Reach Banner" width="450px" style="margin-bottom: 20px;" />
   
   <br />
 
@@ -67,7 +67,7 @@ cd Referral-System
 ```bash
 npm install
 ```
-
+## 🛠️ Configuration
 ### Set Up Environment Variables
 
 Create a `.env.local` file in the root directory:
