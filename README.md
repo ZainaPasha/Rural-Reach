@@ -26,6 +26,18 @@
 ## 🤖 Introduction
 
 **Rural Reach** is an AI-powered emergency referral system that connects rural healthcare centers to better-equipped government and private hospitals. The platform allows patient registration using Aadhaar/Phone/Health ID, intelligently recommends hospitals using a DNN model, and supports admin dashboards for hospital-side appointment scheduling and referral management.
+<br />
+  <img src="https://github.com/ZainaPasha/Rural-Reach/blob/main/public/assets/Preview-1.png?raw=true" alt="Rural Reach Banner" width="450px" " />
+  
+  <br />
+  <br />
+  <br />
+<br />
+  <img src="https://github.com/ZainaPasha/Rural-Reach/blob/main/public/assets/Preview-2.png?raw=true" alt="Rural Reach Banner" width="450px" " />
+  
+  <br />
+  <br />
+  <br />
 
 ## ⚙️ Tech Stack
 
@@ -59,8 +71,8 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/ZainaPasha/Referral-System.git
-cd Referral-System
+git clone https://github.com/ZainaPasha/Rural-Reach.git
+cd Rural-Reach
 ```
 
 ### Install Dependencies
