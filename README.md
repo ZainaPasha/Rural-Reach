@@ -29,18 +29,10 @@
 
 
 <br />
-  <img src="https://github.com/ZainaPasha/Rural-Reach/blob/main/public/assets/Preview-1.png?raw=true" alt="Rural Reach Banner" width="450px" " />
-  
-  <br />
-  <br />
-  <br />
-  
+  <img align ="center" src="https://github.com/ZainaPasha/Rural-Reach/blob/main/public/assets/Preview-1.png?raw=true" alt="Rural Reach Banner" width="450px" " />
 <br />
-  <img src="https://github.com/ZainaPasha/Rural-Reach/blob/main/public/assets/Preview-2.png?raw=true" alt="Rural Reach Banner" width="450px" " />
-  
-  <br />
-  <br />
-  <br />
+<br />
+ 
 
 ## ⚙️ Tech Stack
 
