@@ -1,6 +1,7 @@
 <div align="center">
   <br />
-  <img src="https://github.com/ZainaPasha/Referral-System/assets/banner-image-path" alt="Rural Reach Banner" />
+  <img src="https://raw.githubusercontent.com/ZainaPasha/Rural-Reach/refs/heads/main/public/assets/icons/logo-full.svg" alt="Rural Reach Banner" />
+  
   <br />
 
   <div>
@@ -15,11 +16,11 @@
 
 ## 📋 Table of Contents
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤺 [Quick Start](#quick-start)
-5. 📝 [Configuration](#configuration)
+1. 🤖 [Introduction](#-introduction)
+2. ⚙️ [Tech Stack](#-tech-stack)
+3. 🔋 [Features](#-features)
+4. 🚀 [Quick Start](#-quick-start)
+5. 🛠️ [Configuration](#-configuration)
 
 ## 🤖 Introduction
 
@@ -95,5 +96,4 @@ Go to `http://localhost:3000` in your browser to view the app.
 ---
 
 For more info or to contribute, feel free to raise issues or pull requests.
-Stay tuned for the upcoming deployment and production release!
 
