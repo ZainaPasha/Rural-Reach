@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/healthcare/assets/151519281/a7dd73b6-93de-484d-84e0-e7f4e299167b" alt="Project Banner">
-    </a>
+  <img src="https://github.com/ZainaPasha/Referral-System/assets/banner-image-path" alt="Rural Reach Banner" />
   <br />
 
   <div>
@@ -12,103 +10,69 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
-  <h3 align="center">A HealthCare Management System</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <h3 align="center">Rural Reach: An AI-Powered Emergency Referral Management System</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+4. 🤺 [Quick Start](#quick-start)
+5. 📝 [Configuration](#configuration)
 
-## 🚨 Tutorial
+## 🤖 Introduction
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+**Rural Reach** is an AI-powered emergency referral system that connects rural healthcare centers to better-equipped government and private hospitals. The platform allows patient registration using Aadhaar/Phone/Health ID, intelligently recommends hospitals using a DNN model, and supports admin dashboards for hospital-side appointment scheduling and referral management.
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+## ⚙️ Tech Stack
 
-<a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+- Next.js (Frontend)
+- Tailwind CSS (Styling)
+- Appwrite (Auth, DB, File Storage)
+- TensorFlow.js (AI Inference)
+- Node.js + Express (Backend APIs)
+- TypeScript
 
-## <a name="introduction">🤖 Introduction</a>
+## 🔋 Features
 
-A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
+- ✅ **AI-Powered Hospital Recommendation**: Uses a trained DNN model to suggest the top 3 hospitals based on patient condition, emergency severity, and hospital resource availability.
+- 👤 **Patient Registration**: Register using Aadhaar ID, phone number, or unique health ID.
+- 🕙 **Real-Time Appointment Scheduling**: Hospital admins manage and confirm appointments from incoming referrals.
+- 📢 **SMS Notifications**: Notifies patients when their referral is confirmed.
+- 🏥 **Admin Dashboard**: Enables hospitals to monitor and manage incoming emergency referrals efficiently.
+- ⭐ **Continuous Feedback Optimization**: Tracks outcomes and feedback to retrain the AI model.
+- 🌐 **Responsive UI**: Seamless experience across all devices.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
+## 🤺 Quick Start
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+### Prerequisites
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+Ensure you have the following installed:
 
-- Next.js
-- Appwrite
-- Typescript
-- TailwindCSS
-- ShadCN
-- Twilio
+- Git
+- Node.js
+- npm
 
-## <a name="features">🔋 Features</a>
-
-👉 **Register as a Patient**: Users can sign up and create a personal profile as a patient.
-
-👉 **Book a New Appointment with Doctor**: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
-
-👉 **Manage Appointments on Admin Side**: Administrators can efficiently view and handle all scheduled appointments.
-
-👉 **Confirm/Schedule Appointment from Admin Side**: Admins can confirm and set appointment times to ensure they are properly scheduled.
-
-👉 **Cancel Appointment from Admin Side**: Administrators have the ability to cancel any appointment as needed.
-
-👉 **Send SMS on Appointment Confirmation**: Patients receive SMS notifications to confirm their appointment details.
-
-👉 **Complete Responsiveness**: The application works seamlessly on all device types and screen sizes.
-
-👉 **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
-
-👉 **Manage and Track Application Performance Using Sentry**: The application uses Sentry to monitor and track its performance and detect any errors.
-
-and many more, including code architecture and reusability
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
+### Clone the Repository
 
 ```bash
-git clone https://github.com/adrianhajdin/healthcare.git
-cd healthcare
+git clone https://github.com/ZainaPasha/Referral-System.git
+cd Referral-System
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-**Set Up Environment Variables**
+### Set Up Environment Variables
 
-Create a new file named `.env.local` in the root of your project and add the following content:
+Create a `.env.local` file in the root directory:
 
 ```env
-#APPWRITE
+# Appwrite Setup
 NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
 PROJECT_ID=
 API_KEY=
@@ -117,16 +81,19 @@ PATIENT_COLLECTION_ID=
 APPOINTMENT_COLLECTION_ID=
 NEXT_PUBLIC_BUCKET_ID=
 
-NEXT_PUBLIC_ADMIN_PASSKEY=111111
+NEXT_PUBLIC_ADMIN_PASSKEY=admin_pass_here
 ```
 
-Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the [Appwrite website](https://appwrite.io/).
-
-**Running the Project**
+### Run the Development Server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Go to `http://localhost:3000` in your browser to view the app.
+
+---
+
+For more info or to contribute, feel free to raise issues or pull requests.
+Stay tuned for the upcoming deployment and production release!
 
