@@ -1,6 +1,6 @@
-<div align="center">
+<div align="center" style="margin-bottom: 40px;>
   <br />
-  <img src="https://raw.githubusercontent.com/ZainaPasha/Rural-Reach/refs/heads/main/public/assets/icons/logo-full.svg" alt="Rural Reach Banner" width="450px" style="margin-bottom: 100px;" />
+  <img src="https://raw.githubusercontent.com/ZainaPasha/Rural-Reach/refs/heads/main/public/assets/icons/logo-full.svg" alt="Rural Reach Banner" width="450px" " />
   
   <br />
 
