@@ -1,9 +1,10 @@
 <div align="center">
   <br />
-  <img src="https://raw.githubusercontent.com/ZainaPasha/Rural-Reach/refs/heads/main/public/assets/icons/logo-full.svg" alt="Rural Reach Banner" width="450px" style="margin-bottom: 100px;" />
+  <img src="https://raw.githubusercontent.com/ZainaPasha/Rural-Reach/refs/heads/main/public/assets/icons/logo-full.svg" alt="Rural Reach Banner" width="450px" " />
   
   <br />
-
+  <br />
+  <br />
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
@@ -25,6 +26,13 @@
 ## 🤖 Introduction
 
 **Rural Reach** is an AI-powered emergency referral system that connects rural healthcare centers to better-equipped government and private hospitals. The platform allows patient registration using Aadhaar/Phone/Health ID, intelligently recommends hospitals using a DNN model, and supports admin dashboards for hospital-side appointment scheduling and referral management.
+
+
+<br />
+  <img align ="center" src="https://github.com/ZainaPasha/Rural-Reach/blob/main/public/assets/Preview-1.png?raw=true" alt="Rural Reach Banner" width="450px" " />
+<br />
+<br />
+ 
 
 ## ⚙️ Tech Stack
 
@@ -58,8 +66,8 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/ZainaPasha/Referral-System.git
-cd Referral-System
+git clone https://github.com/ZainaPasha/Rural-Reach.git
+cd Rural-Reach
 ```
 
 ### Install Dependencies
